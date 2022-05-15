@@ -48,45 +48,48 @@ a, a:hover {
     color: unset;
 }
 
-.dsmovie-contact-container {
+.snmovie-contact-container {
     display: flex;
     align-items: center;
 }
 
-.dsmovie-contact-container img {
+.snmovie-contact-container img {
     margin-right: 10px;
 }
 
-#dsmovie-card-list {
+#snmovie-card-list {
     padding: 40px 0;
 }
 
-.dsmovie-card {
-    width: 360px;
+.snmovie-card {
+    width: 100%;
     
 }
 
-.dsmovie-card img { 
+.snmovie-card img { 
     width: 100%;
     border-radius: 8px 8px 0 0;
 }
 
-.dsmovie-card-description {
+.snmovie-card-description {
     background-color: var(--white);
-    padding: 10px 0 20px 0;
+    padding: 10px 20px 20px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     border-radius: 0 0 8px 8px;
+    min-height: 150px;
 }
 
-.dsmovie-card-description h3 {
+.snmovie-card-description h3 {
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 25px;
+    text-align: center;
 }
 
-.dsmovie-btn, .dsmovie-btn:hover {
+.snmovie-btn, .snmovie-btn:hover {
     width: 140px;
     height: 40px;
     background-color: var(--color-primary);
